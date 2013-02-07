@@ -1,0 +1,56 @@
+o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1360208624.452714:@value{I"
+class:EFI"BundledAsset;
+FI"id;
+F"%e3d8b45abdc4f85ad9708622059d6ffcI"logical_path;
+FI"application.js;
+TI"pathname;
+FI"0$root/app/assets/javascripts/application.js;
+TI"content_type;
+FI"application/javascript;
+FI"
+mtime;
+FI"2013-02-07T11:41:46+08:00;
+FI"	body;
+FI"î// This is a manifest file that'll be compiled into including all the files listed below.
+// Add new JavaScript/Coffee code in separate files in this directory and they'll automatically
+// be included in the compiled file accessible from http://example.com/assets/application.js
+// It's not advisable to add code directly here, but if you do, it'll appear at the bottom of the
+// the compiled file.
+//
+;
+;
+FI"asset_paths;
+F[I"j/home/shuke0327/.rvm/gems/ruby-1.9.3-p374/gems/jquery-rails-2.1.1/vendor/assets/javascripts/jquery.js;
+TI"n/home/shuke0327/.rvm/gems/ruby-1.9.3-p374/gems/jquery-rails-2.1.1/vendor/assets/javascripts/jquery_ujs.js;
+TI"0$root/app/assets/javascripts/application.js;
+TI"dependency_paths;
+F[	{I"	path;
+FI"0$root/app/assets/javascripts/application.js;
+TI"
+mtime;
+FIu:	Time„DÄ¢9Jû
+:@_zoneI"CST;
+T:nano_numiµ:nano_deni:submicro"Cp:offsetiÄpI"hexdigest;
+F"%0f1cfbc0bc3803a9dbf1a44d1da6ff92{I"	path;
+FI"!$root/app/assets/javascripts;
+TI"
+mtime;
+FIu;„DÄ¢9Jû
+;I"CST;
+T;iµ;i;"Cp;iÄpI"hexdigest;
+F"%9fc91fc75938cd11a57805188f2a2260{I"	path;
+FI"j/home/shuke0327/.rvm/gems/ruby-1.9.3-p374/gems/jquery-rails-2.1.1/vendor/assets/javascripts/jquery.js;
+TI"
+mtime;
+FIu;„DÄÇbÎ¶
+;I"CST;
+T;iÀ;i;"qP;iÄpI"hexdigest;
+F"%a972cfe4e85bb47d39f9e015cbbd8ab1{I"	path;
+FI"n/home/shuke0327/.rvm/gems/ruby-1.9.3-p374/gems/jquery-rails-2.1.1/vendor/assets/javascripts/jquery_ujs.js;
+TI"
+mtime;
+FIu;„DÄÇbÎ¶
+;I"CST;
+T;iÀ;i;"qP;iÄpI"hexdigest;
+F"%274bf67ebc042c9f3e848baba8b36eddI"_version;
+F"%0868aba5d4b750d3a9421721ea3d9b9c
