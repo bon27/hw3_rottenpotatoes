@@ -23,13 +23,30 @@ Background: movies have been added to database
   
 Scenario: restrict to movies with 'PG' or 'R' ratings
   # enter step(s) to check the 'PG' and 'R' checkboxes
+  Given I check the following ratings: "PG,R"
   # enter step(s) to uncheck all other checkboxes
+  #Given I uncheck the following ratings: "G,PG-13,NC-17"
   # enter step to "submit" the search form on the homepage
+  When I press "Refresh" 
+  
   # enter step(s) to ensure that PG and R movies are visible
-  # enter step(s) to ensure that other movies are not visible
+  Then I should see the following movies exist:
+  | title                   | rating | release_date |
+  | The Terminator          | R      | 26-Oct-1984  |
+  | When Harry Met Sally    | R      | 21-Jul-1989  |
+  | Amelie                  | R      | 25-Apr-2001  |
+  | The Incredibles         | PG     | 5-Nov-2004   |
+  | Raiders of the Lost Ark | PG     | 12-Jun-1981  |
 
+  # enter step(s) to ensure that other movies are not visible
+  
 Scenario: no ratings selected
   # see assignment
-
+  
 Scenario: all ratings selected
   # see assignment
+  Given I check the following ratings: "PG,G,R,PG-13,NC-17"
+  When I press "Refresh"
+  Then I should see all of the movies
+
+
