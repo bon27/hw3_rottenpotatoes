@@ -59,11 +59,17 @@ Given /^I check the following ratings: "(.*)"/ do |rating_list|
 end
 
 Then /^I should see the following movies exist:$/ do |movies|
-   
+   # should compare the movie record in the database and the page
+   #record_movies = Movie.find(:all,:ratings=>@checked_ratings)
+   #rated_movie = all("table#movies tbody tr").count
+   movies.hashes.each do |movie|
+     step("I should see \"#{movie[:title]}\"")
+   #record_num  = movies.hashes.length
+   #rated_movie.should == record_num   
+   end
+   record_num = movies.hashes.length
    rated_movie = all("table#movies tbody tr").count
-   record_num  = movies.hashes.length
-   rated_movie.should == record_num   
-
+   rated_movie.should == record_num
 end
 
 
