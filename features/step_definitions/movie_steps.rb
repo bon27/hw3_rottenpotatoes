@@ -91,4 +91,6 @@ end
 
   
 
-
+When /^I go to the edit page for ".*"$/ do |movie_name|
+  movie_id = Movie.find_by_name(movie_name)
+  visit path_to()
