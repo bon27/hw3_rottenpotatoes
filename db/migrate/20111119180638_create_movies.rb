@@ -9,6 +9,8 @@ class CreateMovies < ActiveRecord::Migration
       # of when movies are added or modified:
       t.timestamps
     end
+    # add a column: director
+    add_column :movies, :director, :string
   end
 
   def down
