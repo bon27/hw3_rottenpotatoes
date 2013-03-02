@@ -1,5 +1,5 @@
 source 'http://rubygems.org'
-
+gem 'factory_girl_rails'
 gem 'rails', '3.1.0'
 
 # Bundle edge Rails instead:
@@ -43,3 +43,4 @@ gem 'jquery-rails'
 
 # To use debugger
 gem 'haml'
+gem 'ruby-tmdb'
